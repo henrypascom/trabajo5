@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Tablas</h1>
+    </header>
+    <main>
+        <section>
+            <h2>
+                Tabla simple
+            </h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Apellido</th>
+                        <th>Profesion</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Alberto</td>
+                        <td>Cortes</td>
+                        <td>Ingeniero</td>
+                    </tr>
+                    <tr>
+                        <td>Pedro</td>
+                        <td>Iglesia</td>
+                        <td>Medico</td>
+                    </tr>
+                    <tr>
+                        <td>Antonella</td>
+                        <td>Trelle</td>
+                        <td>Comunicadora</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>xxxxx</td>
+                        <td>xxxxx</td>
+                        <td>xxxxx</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+        <hr /> <!-- Se utiliza para crear una linea-->
+        <section>
+            <h2>
+                Combinar Columnas
+            </h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Apellido</th>
+                        <th>Profesion</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Alberto</td>
+                        <td>Cortes</td>
+                        <td>Ingeniero</td>
+                    </tr>
+                    <tr>
+                        <td>Pedro</td>
+                        <td>Iglesia</td>
+                        <td>Medico</td>
+                    </tr>
+                    <tr>
+                        <td>Antonella</td>
+                        <td>Trelle</td>
+                        <td>Comunicadora</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3">xxxxx</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+        <hr />
+        <section>
+            <h2>
+                Combinar Filas
+            </h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Apellido</th>
+                        <th>Profesion</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="2">Alberto</td>
+                        <td>Cortes</td>
+                        <td rowspan="2">Ingeniero</td>
+                    </tr>
+                    <tr>
+                        
+                        <td>Iglesia</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>Antonella</td>
+                        <td>Trelle</td>
+                        <td>Comunicadora</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>xxxxx</td>
+                        <td>xxxxx</td>
+                        <td>xxxxx</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+    </main>
+    
+</body>
+</html>
